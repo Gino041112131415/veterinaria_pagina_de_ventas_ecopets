@@ -1,0 +1,628 @@
+2025-12-11T03:36:36.486827Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T03:36:36.487034Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T03:36:36.487039Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T03:36:36.487059Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T03:36:36.488759Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 2552 ...
+2025-12-11T03:36:36.502168Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T03:36:36.502769Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T03:36:36.503098Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T03:36:36.503438Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T03:36:36.504088Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T03:36:36.504536Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T03:36:36.507708Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T03:36:36.512557Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T03:36:36.556450Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T03:36:36.557905Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2087364
+2025-12-11T03:36:36.558384Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2087373
+2025-12-11T03:36:36.558857Z 0 [Note] InnoDB: Database was not shutdown normally!
+2025-12-11T03:36:36.559269Z 0 [Note] InnoDB: Starting crash recovery.
+2025-12-11T03:36:36.722770Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T03:36:36.723503Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T03:36:36.724666Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T03:36:36.758408Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T03:36:36.772363Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T03:36:36.773198Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T03:36:36.774067Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T03:36:36.829364Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087373
+2025-12-11T03:36:36.830622Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T03:36:36.830651Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:36:36.832409Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2025-12-11T03:36:36.833851Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T03:36:36.835456Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T03:36:36.837749Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T03:36:36.838504Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T03:36:36.839100Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:36:36.839609Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:36:36.842007Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T03:36:36.843072Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T03:36:36.844461Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2025-12-11T03:36:36.845722Z 0 [Note] IPv6 is available.
+2025-12-11T03:36:36.846400Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T03:36:36.847106Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T03:36:36.847759Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2025-12-11T03:36:36.848620Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2025-12-11T03:36:36.849459Z 0 [ERROR] Aborting
+
+2025-12-11T03:36:36.849930Z 0 [Note] Binlog end
+2025-12-11T03:36:36.850330Z 0 [Note] Shutting down plugin 'ngram'
+2025-12-11T03:36:36.850693Z 0 [Note] Shutting down plugin 'partition'
+2025-12-11T03:36:36.851235Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2025-12-11T03:36:36.851789Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2025-12-11T03:36:36.852196Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2025-12-11T03:36:36.852705Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2025-12-11T03:36:36.853261Z 0 [Note] Shutting down plugin 'MyISAM'
+2025-12-11T03:36:36.853942Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2025-12-11T03:36:36.854593Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2025-12-11T03:36:36.855256Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2025-12-11T03:36:36.855923Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2025-12-11T03:36:36.856509Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2025-12-11T03:36:36.856923Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2025-12-11T03:36:36.857305Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2025-12-11T03:36:36.857692Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2025-12-11T03:36:36.858071Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2025-12-11T03:36:36.858717Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2025-12-11T03:36:36.859363Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2025-12-11T03:36:36.859795Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2025-12-11T03:36:36.860302Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2025-12-11T03:36:36.860736Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2025-12-11T03:36:36.861192Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2025-12-11T03:36:36.861678Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2025-12-11T03:36:36.862093Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2025-12-11T03:36:36.862451Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2025-12-11T03:36:36.862872Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2025-12-11T03:36:36.863301Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2025-12-11T03:36:36.863751Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2025-12-11T03:36:36.864122Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2025-12-11T03:36:36.864537Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2025-12-11T03:36:36.864976Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2025-12-11T03:36:36.865386Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2025-12-11T03:36:36.865736Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2025-12-11T03:36:36.866115Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2025-12-11T03:36:36.866462Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2025-12-11T03:36:36.866836Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2025-12-11T03:36:36.867223Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2025-12-11T03:36:36.867651Z 0 [Note] Shutting down plugin 'InnoDB'
+2025-12-11T03:36:36.868069Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-12-11T03:36:36.868672Z 0 [Note] InnoDB: Starting shutdown...
+2025-12-11T03:36:36.977774Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:36:36.981645Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 251210 22:36:36
+2025-12-11T03:36:38.205173Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2087392
+2025-12-11T03:36:38.207705Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T03:36:38.208251Z 0 [Note] Shutting down plugin 'MEMORY'
+2025-12-11T03:36:38.208652Z 0 [Note] Shutting down plugin 'CSV'
+2025-12-11T03:36:38.208975Z 0 [Note] Shutting down plugin 'sha256_password'
+2025-12-11T03:36:38.209389Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2025-12-11T03:36:38.209870Z 0 [Note] Shutting down plugin 'binlog'
+2025-12-11T03:36:38.210351Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2025-12-11T03:36:57.392275Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T03:36:57.392326Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T03:36:57.392330Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T03:36:57.392348Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T03:36:57.392698Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 30032 ...
+2025-12-11T03:36:57.401757Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T03:36:57.402334Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T03:36:57.402648Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T03:36:57.402987Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T03:36:57.403586Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T03:36:57.404011Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T03:36:57.406354Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T03:36:57.411581Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T03:36:57.437280Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T03:36:57.477854Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T03:36:57.478693Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T03:36:57.487550Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T03:36:57.500644Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T03:36:57.501339Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T03:36:57.502146Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T03:36:57.554951Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087392
+2025-12-11T03:36:57.555947Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T03:36:57.556009Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:36:57.557403Z 0 [Note] InnoDB: Buffer pool(s) load completed at 251210 22:36:57
+2025-12-11T03:36:57.558301Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T03:36:57.559361Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T03:36:57.560885Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T03:36:57.561518Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T03:36:57.562071Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:36:57.562559Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:36:57.564586Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T03:36:57.565129Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T03:36:57.565878Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2025-12-11T03:36:57.566507Z 0 [Note] IPv6 is available.
+2025-12-11T03:36:57.566817Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T03:36:57.567246Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T03:36:57.567614Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2025-12-11T03:36:57.568076Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2025-12-11T03:36:57.568544Z 0 [ERROR] Aborting
+
+2025-12-11T03:36:57.568806Z 0 [Note] Binlog end
+2025-12-11T03:36:57.569092Z 0 [Note] Shutting down plugin 'ngram'
+2025-12-11T03:36:57.569412Z 0 [Note] Shutting down plugin 'partition'
+2025-12-11T03:36:57.569847Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2025-12-11T03:36:57.570177Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2025-12-11T03:36:57.570570Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2025-12-11T03:36:57.570977Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2025-12-11T03:36:57.571343Z 0 [Note] Shutting down plugin 'MyISAM'
+2025-12-11T03:36:57.571675Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2025-12-11T03:36:57.572039Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2025-12-11T03:36:57.572419Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2025-12-11T03:36:57.572798Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2025-12-11T03:36:57.573174Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2025-12-11T03:36:57.573549Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2025-12-11T03:36:57.573904Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2025-12-11T03:36:57.574261Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2025-12-11T03:36:57.574619Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2025-12-11T03:36:57.574994Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2025-12-11T03:36:57.575348Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2025-12-11T03:36:57.575716Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2025-12-11T03:36:57.576084Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2025-12-11T03:36:57.576434Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2025-12-11T03:36:57.576814Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2025-12-11T03:36:57.577166Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2025-12-11T03:36:57.577552Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2025-12-11T03:36:57.577922Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2025-12-11T03:36:57.578299Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2025-12-11T03:36:57.578681Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2025-12-11T03:36:57.579065Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2025-12-11T03:36:57.579425Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2025-12-11T03:36:57.579811Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2025-12-11T03:36:57.580176Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2025-12-11T03:36:57.580537Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2025-12-11T03:36:57.580896Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2025-12-11T03:36:57.581245Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2025-12-11T03:36:57.581573Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2025-12-11T03:36:57.581933Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2025-12-11T03:36:57.582282Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2025-12-11T03:36:57.582611Z 0 [Note] Shutting down plugin 'InnoDB'
+2025-12-11T03:36:57.583000Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-12-11T03:36:57.583503Z 0 [Note] InnoDB: Starting shutdown...
+2025-12-11T03:36:57.695641Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:36:57.698797Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 251210 22:36:57
+2025-12-11T03:36:59.015046Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2087411
+2025-12-11T03:36:59.016662Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T03:36:59.017160Z 0 [Note] Shutting down plugin 'MEMORY'
+2025-12-11T03:36:59.017494Z 0 [Note] Shutting down plugin 'CSV'
+2025-12-11T03:36:59.017861Z 0 [Note] Shutting down plugin 'sha256_password'
+2025-12-11T03:36:59.018229Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2025-12-11T03:36:59.018714Z 0 [Note] Shutting down plugin 'binlog'
+2025-12-11T03:36:59.019284Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2025-12-11T03:37:54.546788Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T03:37:54.546838Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T03:37:54.546842Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T03:37:54.546859Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T03:37:54.547245Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 29348 ...
+2025-12-11T03:37:54.556639Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T03:37:54.557262Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T03:37:54.557577Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T03:37:54.557919Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T03:37:54.558509Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T03:37:54.558915Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T03:37:54.561304Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T03:37:54.567672Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T03:37:54.596331Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T03:37:54.638773Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T03:37:54.639580Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T03:37:54.652218Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T03:37:54.669380Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T03:37:54.670043Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T03:37:54.670814Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T03:37:54.736541Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087411
+2025-12-11T03:37:54.737612Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T03:37:54.737696Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:37:54.738804Z 0 [Note] InnoDB: Buffer pool(s) load completed at 251210 22:37:54
+2025-12-11T03:37:54.739882Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T03:37:54.740873Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T03:37:54.743052Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T03:37:54.743957Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T03:37:54.744513Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:37:54.745000Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:37:54.746698Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T03:37:54.747194Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T03:37:54.747910Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2025-12-11T03:37:54.748528Z 0 [Note] IPv6 is available.
+2025-12-11T03:37:54.748828Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T03:37:54.749202Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T03:37:54.749627Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2025-12-11T03:37:54.750094Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2025-12-11T03:37:54.750552Z 0 [ERROR] Aborting
+
+2025-12-11T03:37:54.750808Z 0 [Note] Binlog end
+2025-12-11T03:37:54.751094Z 0 [Note] Shutting down plugin 'ngram'
+2025-12-11T03:37:54.751413Z 0 [Note] Shutting down plugin 'partition'
+2025-12-11T03:37:54.751742Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2025-12-11T03:37:54.752073Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2025-12-11T03:37:54.752411Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2025-12-11T03:37:54.752794Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2025-12-11T03:37:54.753128Z 0 [Note] Shutting down plugin 'MyISAM'
+2025-12-11T03:37:54.753454Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2025-12-11T03:37:54.753822Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2025-12-11T03:37:54.754187Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2025-12-11T03:37:54.754556Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2025-12-11T03:37:54.754929Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2025-12-11T03:37:54.755473Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2025-12-11T03:37:54.755924Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2025-12-11T03:37:54.756317Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2025-12-11T03:37:54.756681Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2025-12-11T03:37:54.757117Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2025-12-11T03:37:54.757475Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2025-12-11T03:37:54.757845Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2025-12-11T03:37:54.758215Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2025-12-11T03:37:54.758595Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2025-12-11T03:37:54.758978Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2025-12-11T03:37:54.759332Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2025-12-11T03:37:54.759728Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2025-12-11T03:37:54.760069Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2025-12-11T03:37:54.760440Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2025-12-11T03:37:54.760826Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2025-12-11T03:37:54.761201Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2025-12-11T03:37:54.761558Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2025-12-11T03:37:54.761943Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2025-12-11T03:37:54.762308Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2025-12-11T03:37:54.762673Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2025-12-11T03:37:54.763012Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2025-12-11T03:37:54.763360Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2025-12-11T03:37:54.763686Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2025-12-11T03:37:54.764040Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2025-12-11T03:37:54.764388Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2025-12-11T03:37:54.764721Z 0 [Note] Shutting down plugin 'InnoDB'
+2025-12-11T03:37:54.765088Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-12-11T03:37:54.765601Z 0 [Note] InnoDB: Starting shutdown...
+2025-12-11T03:37:54.877722Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:37:54.880884Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 251210 22:37:54
+2025-12-11T03:37:56.083556Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2087446
+2025-12-11T03:37:56.085204Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T03:37:56.085689Z 0 [Note] Shutting down plugin 'MEMORY'
+2025-12-11T03:37:56.086029Z 0 [Note] Shutting down plugin 'CSV'
+2025-12-11T03:37:56.086345Z 0 [Note] Shutting down plugin 'sha256_password'
+2025-12-11T03:37:56.086742Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2025-12-11T03:37:56.087220Z 0 [Note] Shutting down plugin 'binlog'
+2025-12-11T03:37:56.087731Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2025-12-11T03:38:50.388321Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T03:38:50.388395Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T03:38:50.388399Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T03:38:50.388414Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T03:38:50.389466Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 6608 ...
+2025-12-11T03:38:50.398487Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T03:38:50.399046Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T03:38:50.399359Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T03:38:50.399705Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T03:38:50.400310Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T03:38:50.400723Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T03:38:50.403014Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T03:38:50.408436Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T03:38:50.443647Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T03:38:50.480701Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T03:38:50.481955Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T03:38:50.488732Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T03:38:50.501881Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T03:38:50.502526Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T03:38:50.503272Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T03:38:50.559002Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087446
+2025-12-11T03:38:50.560014Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T03:38:50.560145Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:38:50.561205Z 0 [Note] InnoDB: Buffer pool(s) load completed at 251210 22:38:50
+2025-12-11T03:38:50.563181Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T03:38:50.564205Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T03:38:50.565708Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T03:38:50.566398Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T03:38:50.567081Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:38:50.567648Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T03:38:50.569333Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T03:38:50.569833Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T03:38:50.570555Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2025-12-11T03:38:50.571158Z 0 [Note] IPv6 is available.
+2025-12-11T03:38:50.571462Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T03:38:50.571849Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T03:38:50.572265Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2025-12-11T03:38:50.572729Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2025-12-11T03:38:50.573191Z 0 [ERROR] Aborting
+
+2025-12-11T03:38:50.573446Z 0 [Note] Binlog end
+2025-12-11T03:38:50.573761Z 0 [Note] Shutting down plugin 'ngram'
+2025-12-11T03:38:50.574212Z 0 [Note] Shutting down plugin 'partition'
+2025-12-11T03:38:50.574593Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2025-12-11T03:38:50.574920Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2025-12-11T03:38:50.575240Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2025-12-11T03:38:50.575621Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2025-12-11T03:38:50.575961Z 0 [Note] Shutting down plugin 'MyISAM'
+2025-12-11T03:38:50.576297Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2025-12-11T03:38:50.576660Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2025-12-11T03:38:50.577027Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2025-12-11T03:38:50.577399Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2025-12-11T03:38:50.577774Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2025-12-11T03:38:50.578138Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2025-12-11T03:38:50.578491Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2025-12-11T03:38:50.578848Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2025-12-11T03:38:50.579226Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2025-12-11T03:38:50.579595Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2025-12-11T03:38:50.579954Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2025-12-11T03:38:50.580329Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2025-12-11T03:38:50.580759Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2025-12-11T03:38:50.581111Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2025-12-11T03:38:50.581534Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2025-12-11T03:38:50.581886Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2025-12-11T03:38:50.582279Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2025-12-11T03:38:50.582619Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2025-12-11T03:38:50.582991Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2025-12-11T03:38:50.583393Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2025-12-11T03:38:50.583765Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2025-12-11T03:38:50.584128Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2025-12-11T03:38:50.584527Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2025-12-11T03:38:50.584890Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2025-12-11T03:38:50.585250Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2025-12-11T03:38:50.585589Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2025-12-11T03:38:50.585939Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2025-12-11T03:38:50.586283Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2025-12-11T03:38:50.586637Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2025-12-11T03:38:50.586972Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2025-12-11T03:38:50.587299Z 0 [Note] Shutting down plugin 'InnoDB'
+2025-12-11T03:38:50.587645Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-12-11T03:38:50.588153Z 0 [Note] InnoDB: Starting shutdown...
+2025-12-11T03:38:50.698998Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T03:38:50.702457Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 251210 22:38:50
+2025-12-11T03:38:51.897559Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2087465
+2025-12-11T03:38:51.899121Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T03:38:51.899589Z 0 [Note] Shutting down plugin 'MEMORY'
+2025-12-11T03:38:51.899920Z 0 [Note] Shutting down plugin 'CSV'
+2025-12-11T03:38:51.900239Z 0 [Note] Shutting down plugin 'sha256_password'
+2025-12-11T03:38:51.900620Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2025-12-11T03:38:51.901345Z 0 [Note] Shutting down plugin 'binlog'
+2025-12-11T03:38:51.901906Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2025-12-11T04:47:43.676902Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T04:47:43.676968Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T04:47:43.676971Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T04:47:43.676986Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T04:47:43.677495Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 13868 ...
+2025-12-11T04:47:43.715811Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T04:47:43.716508Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T04:47:43.716856Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T04:47:43.717240Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T04:47:43.717948Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T04:47:43.718422Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T04:47:43.720854Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T04:47:43.725828Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T04:47:43.791715Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T04:47:43.886890Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T04:47:43.887747Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T04:47:43.896425Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T04:47:43.908347Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T04:47:43.909025Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T04:47:43.909877Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T04:47:43.967900Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087465
+2025-12-11T04:47:43.968938Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T04:47:43.969014Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T04:47:43.976789Z 0 [Note] InnoDB: Buffer pool(s) load completed at 251210 23:47:43
+2025-12-11T04:47:43.985230Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T04:47:43.993085Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T04:47:43.995414Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T04:47:43.996062Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T04:47:43.996637Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T04:47:43.997133Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T04:47:44.020587Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T04:47:44.021554Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T04:47:44.038409Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2025-12-11T04:47:44.039170Z 0 [Note] IPv6 is available.
+2025-12-11T04:47:44.039479Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T04:47:44.039859Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T04:47:44.040236Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2025-12-11T04:47:44.040759Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2025-12-11T04:47:44.041223Z 0 [ERROR] Aborting
+
+2025-12-11T04:47:44.041993Z 0 [Note] Binlog end
+2025-12-11T04:47:44.042773Z 0 [Note] Shutting down plugin 'ngram'
+2025-12-11T04:47:44.043398Z 0 [Note] Shutting down plugin 'partition'
+2025-12-11T04:47:44.043738Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2025-12-11T04:47:44.044068Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2025-12-11T04:47:44.044388Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2025-12-11T04:47:44.045203Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2025-12-11T04:47:44.045792Z 0 [Note] Shutting down plugin 'MyISAM'
+2025-12-11T04:47:44.046310Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2025-12-11T04:47:44.047037Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2025-12-11T04:47:44.047416Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2025-12-11T04:47:44.047791Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2025-12-11T04:47:44.048169Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2025-12-11T04:47:44.048527Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2025-12-11T04:47:44.048890Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2025-12-11T04:47:44.049248Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2025-12-11T04:47:44.049605Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2025-12-11T04:47:44.049979Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2025-12-11T04:47:44.050334Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2025-12-11T04:47:44.050702Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2025-12-11T04:47:44.051079Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2025-12-11T04:47:44.051429Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2025-12-11T04:47:44.051805Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2025-12-11T04:47:44.052158Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2025-12-11T04:47:44.052545Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2025-12-11T04:47:44.052893Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2025-12-11T04:47:44.053266Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2025-12-11T04:47:44.053645Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2025-12-11T04:47:44.054018Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2025-12-11T04:47:44.054376Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2025-12-11T04:47:44.054763Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2025-12-11T04:47:44.055135Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2025-12-11T04:47:44.055496Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2025-12-11T04:47:44.055835Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2025-12-11T04:47:44.056211Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2025-12-11T04:47:44.056539Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2025-12-11T04:47:44.056897Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2025-12-11T04:47:44.057232Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2025-12-11T04:47:44.057559Z 0 [Note] Shutting down plugin 'InnoDB'
+2025-12-11T04:47:44.058209Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-12-11T04:47:44.058612Z 0 [Note] InnoDB: Starting shutdown...
+2025-12-11T04:47:44.175042Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T04:47:44.178399Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 251210 23:47:44
+2025-12-11T04:47:45.492550Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2087484
+2025-12-11T04:47:45.494291Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-12-11T04:47:45.494737Z 0 [Note] Shutting down plugin 'MEMORY'
+2025-12-11T04:47:45.495234Z 0 [Note] Shutting down plugin 'CSV'
+2025-12-11T04:47:45.495573Z 0 [Note] Shutting down plugin 'sha256_password'
+2025-12-11T04:47:45.495929Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2025-12-11T04:47:45.496465Z 0 [Note] Shutting down plugin 'binlog'
+2025-12-11T04:47:45.497195Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+2025-12-11T04:48:33.932257Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2025-12-11T04:48:33.932363Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2025-12-11T04:48:33.932373Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2025-12-11T04:48:33.932402Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2025-12-11T04:48:33.932891Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 26980 ...
+2025-12-11T04:48:33.941977Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-12-11T04:48:33.942613Z 0 [Note] InnoDB: Uses event mutexes
+2025-12-11T04:48:33.942939Z 0 [Note] InnoDB: Memory barrier is not used
+2025-12-11T04:48:33.943281Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-12-11T04:48:33.943899Z 0 [Note] InnoDB: Number of pools: 1
+2025-12-11T04:48:33.944303Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2025-12-11T04:48:33.946639Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2025-12-11T04:48:33.952090Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-12-11T04:48:33.975725Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2025-12-11T04:48:34.026899Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-12-11T04:48:34.027856Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-12-11T04:48:34.036391Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2025-12-11T04:48:34.048960Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2025-12-11T04:48:34.049857Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2025-12-11T04:48:34.050863Z 0 [Note] InnoDB: Waiting for purge to start
+2025-12-11T04:48:34.107220Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 2087484
+2025-12-11T04:48:34.108280Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2025-12-11T04:48:34.108343Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA\mysql\data\ib_buffer_pool
+2025-12-11T04:48:34.109538Z 0 [Note] InnoDB: Buffer pool(s) load completed at 251210 23:48:34
+2025-12-11T04:48:34.111337Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2025-12-11T04:48:34.112384Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2025-12-11T04:48:34.113936Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2025-12-11T04:48:34.114589Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2025-12-11T04:48:34.115148Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T04:48:34.115649Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2025-12-11T04:48:34.117484Z 0 [Warning] CA certificate ca.pem is self signed.
+2025-12-11T04:48:34.118014Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2025-12-11T04:48:34.118811Z 0 [Note] Server hostname (bind-address): '*'; port: 3309
+2025-12-11T04:48:34.119485Z 0 [Note] IPv6 is available.
+2025-12-11T04:48:34.119807Z 0 [Note]   - '::' resolves to '::';
+2025-12-11T04:48:34.120199Z 0 [Note] Server socket created on IP: '::'.
+2025-12-11T04:48:34.121602Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2025-12-11T04:48:34.527872Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2025-12-11T04:48:34.528517Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2025-12-11T04:48:34.528981Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2025-12-11T04:48:34.529411Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2025-12-11T04:48:34.529998Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2025-12-11T04:48:34.592059Z 0 [Warning] System table 'servers' is expected to be transactional.
+2025-12-11T04:48:34.608537Z 0 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2025-12-11T04:48:34.609252Z 0 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2025-12-11T04:48:34.609884Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2025-12-11T04:48:34.610538Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2025-12-11T04:48:34.611212Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2025-12-11T04:48:34.611889Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2025-12-11T04:48:34.612528Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2025-12-11T04:48:34.613185Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2025-12-11T04:48:34.613841Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2025-12-11T04:48:34.614538Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2025-12-11T04:48:34.615404Z 0 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2025-12-11T04:48:34.615968Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2025-12-11T04:48:34.616586Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2025-12-11T04:48:34.617178Z 0 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2025-12-11T04:48:34.617711Z 0 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2025-12-11T04:48:34.618291Z 0 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2025-12-11T04:48:34.618899Z 0 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2025-12-11T04:48:34.619483Z 0 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2025-12-11T04:48:34.620037Z 0 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2025-12-11T04:48:34.620594Z 0 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2025-12-11T04:48:34.621151Z 0 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2025-12-11T04:48:34.621710Z 0 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2025-12-11T04:48:34.622243Z 0 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2025-12-11T04:48:34.622798Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2025-12-11T04:48:34.623462Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2025-12-11T04:48:34.624224Z 0 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2025-12-11T04:48:34.624963Z 0 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2025-12-11T04:48:34.625518Z 0 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2025-12-11T04:48:34.626102Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2025-12-11T04:48:34.626914Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2025-12-11T04:48:34.627519Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2025-12-11T04:48:34.628177Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2025-12-11T04:48:34.628879Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2025-12-11T04:48:34.629553Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2025-12-11T04:48:34.630198Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2025-12-11T04:48:34.630847Z 0 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2025-12-11T04:48:34.631436Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2025-12-11T04:48:34.632026Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2025-12-11T04:48:34.632651Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2025-12-11T04:48:34.633352Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2025-12-11T04:48:34.634039Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2025-12-11T04:48:34.634707Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2025-12-11T04:48:34.635379Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2025-12-11T04:48:34.636033Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2025-12-11T04:48:34.636678Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2025-12-11T04:48:34.637385Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2025-12-11T04:48:34.637988Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2025-12-11T04:48:34.638611Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2025-12-11T04:48:34.639229Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2025-12-11T04:48:34.640141Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2025-12-11T04:48:34.640857Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2025-12-11T04:48:34.641537Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2025-12-11T04:48:34.642221Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2025-12-11T04:48:34.642911Z 0 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2025-12-11T04:48:34.643426Z 0 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2025-12-11T04:48:34.643968Z 0 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2025-12-11T04:48:34.644500Z 0 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2025-12-11T04:48:34.645049Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2025-12-11T04:48:34.645643Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2025-12-11T04:48:34.646240Z 0 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2025-12-11T04:48:34.646859Z 0 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2025-12-11T04:48:34.647503Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2025-12-11T04:48:34.648164Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2025-12-11T04:48:34.648840Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2025-12-11T04:48:34.649493Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2025-12-11T04:48:34.650127Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2025-12-11T04:48:34.650842Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2025-12-11T04:48:34.651387Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2025-12-11T04:48:34.651959Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2025-12-11T04:48:34.652692Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2025-12-11T04:48:34.653281Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2025-12-11T04:48:34.653881Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2025-12-11T04:48:34.654534Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2025-12-11T04:48:34.655121Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2025-12-11T04:48:34.655825Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2025-12-11T04:48:34.656473Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2025-12-11T04:48:34.657098Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2025-12-11T04:48:34.657784Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2025-12-11T04:48:34.658493Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2025-12-11T04:48:34.659044Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2025-12-11T04:48:34.659615Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2025-12-11T04:48:34.660206Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2025-12-11T04:48:34.660778Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2025-12-11T04:48:34.661332Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2025-12-11T04:48:34.661874Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2025-12-11T04:48:34.662454Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2025-12-11T04:48:34.662996Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2025-12-11T04:48:34.663672Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2025-12-11T04:48:34.664501Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2025-12-11T04:48:34.680443Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2025-12-11T04:48:34.681291Z 0 [Note] C:\Users\USER\Music\final-taller\ECOPTES-VETERINARIA/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.7.37'  socket: ''  port: 3309  MySQL Community Server (GPL)
+2025-12-11T04:48:44.597083Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:48:44.597627Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:49:26.780506Z 3 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2025-12-11T04:49:32.048993Z 4 [Note] Access denied for user 'root '@'localhost' (using password: YES)
+2025-12-11T04:49:37.652078Z 5 [Note] Access denied for user 'root '@'localhost' (using password: YES)
+2025-12-11T04:49:44.680981Z 6 [Note] Access denied for user 'root '@'localhost' (using password: YES)
+2025-12-11T04:49:47.685674Z 7 [Note] Access denied for user 'root '@'localhost' (using password: YES)
+2025-12-11T04:50:01.427682Z 8 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2025-12-11T04:50:03.293974Z 9 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2025-12-11T04:50:06.078544Z 10 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2025-12-11T04:50:08.746484Z 11 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2025-12-11T04:50:36.169155Z 15 [Note] Aborted connection 15 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2025-12-11T04:50:36.169300Z 14 [Note] Abortada conexión 14 para db: 'mysql' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2025-12-11T04:50:44.966271Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:50:44.966805Z 30 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:51:05.431715Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:51:05.432554Z 52 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:51:05.482321Z 52 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:51:05.482933Z 52 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:51:51.859425Z 59 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:51:51.860001Z 59 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:52:05.364147Z 60 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:52:05.364807Z 60 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2025-12-11T04:56:04.314083Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2025-12-11T04:56:04.314803Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2025-12-11T14:58:55.401530Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34041025ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2025-12-11T17:23:18.176813Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 117089ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

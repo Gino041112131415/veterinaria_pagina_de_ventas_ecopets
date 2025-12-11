@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.footer-link-list li a:hover {
+    color: yellow;
+}
+
+
+.carousel-indicators li {
+    background-color: #DAA520;
+}
+
+
+.carousel-indicators .active {
+    background-color: #DAA520;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #DAA520;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.854 4l2.646-2.646-.708-.708L2.438 4l4.354 4.354.708-.708L4.854 4z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.146 4l-2.646 2.646.708.708L5.562 4 1.208-.354l-.708.708L3.146 4z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+
+.btn-mostaza {
+    background-color: #DAA520 !important;
+    color: black !important;
+}
+
+
+.login-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.login-buttons button {
+    margin-left: 10px;
+}

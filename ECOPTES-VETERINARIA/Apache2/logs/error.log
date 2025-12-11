@@ -1,0 +1,17 @@
+[Wed Dec 10 23:48:34.444440 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Wed Dec 10 23:48:34.445439 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Wed Dec 10 23:48:34.445439 2025] [core:notice] [pid 8428:tid 308] AH00094: Command line: 'C:\\Users\\USER\\Music\\final-taller\\ECOPTES-VETERINARIA/apache2/bin/httpd_usbwv8.exe -d C:/Users/USER/Music/final-taller/ECOPTES-VETERINARIA/Apache2'
+[Wed Dec 10 23:48:34.453516 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00418: Parent: Created child process 34708
+[Wed Dec 10 23:48:34.996873 2025] [mpm_winnt:notice] [pid 34708:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 10 23:50:36.174480 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00428: Parent: child process 34708 exited with status 3221226356 -- Restarting.
+[Wed Dec 10 23:50:36.208161 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Wed Dec 10 23:50:36.208161 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Wed Dec 10 23:50:36.208161 2025] [core:notice] [pid 8428:tid 308] AH00094: Command line: 'C:\\Users\\USER\\Music\\final-taller\\ECOPTES-VETERINARIA/apache2/bin/httpd_usbwv8.exe -d C:/Users/USER/Music/final-taller/ECOPTES-VETERINARIA/Apache2'
+[Wed Dec 10 23:50:36.214675 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00418: Parent: Created child process 27096
+[Wed Dec 10 23:50:36.754236 2025] [mpm_winnt:notice] [pid 27096:tid 556] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 10 23:56:10.239284 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00428: Parent: child process 27096 exited with status 3221226356 -- Restarting.
+[Wed Dec 10 23:56:10.270951 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00455: Apache/2.4.54 (Win32) PHP/8.1.7 configured -- resuming normal operations
+[Wed Dec 10 23:56:10.270951 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:31:11
+[Wed Dec 10 23:56:10.270951 2025] [core:notice] [pid 8428:tid 308] AH00094: Command line: 'C:\\Users\\USER\\Music\\final-taller\\ECOPTES-VETERINARIA/apache2/bin/httpd_usbwv8.exe -d C:/Users/USER/Music/final-taller/ECOPTES-VETERINARIA/Apache2'
+[Wed Dec 10 23:56:10.276956 2025] [mpm_winnt:notice] [pid 8428:tid 308] AH00418: Parent: Created child process 37584
+[Wed Dec 10 23:56:10.814336 2025] [mpm_winnt:notice] [pid 37584:tid 556] AH00354: Child: Starting 64 worker threads.

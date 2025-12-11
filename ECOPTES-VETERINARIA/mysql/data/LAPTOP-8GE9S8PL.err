@@ -1,0 +1,514 @@
+2024-06-27T00:53:37.432275Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-27T00:53:37.432930Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-06-27T00:53:37.432954Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-06-27T00:53:37.433010Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-27T00:53:37.435158Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-27T00:53:37.435270Z 0 [Note] C:\Users\Acer\Downloads\Trabajo-Final - copia/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 24544 ...
+2024-06-27T00:53:37.498795Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-27T00:53:37.500425Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-27T00:53:37.501586Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-27T00:53:37.502787Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-27T00:53:37.506300Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-27T00:53:37.508143Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-27T00:53:37.521625Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-27T00:53:37.541064Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-27T00:53:37.653797Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-27T00:53:37.659196Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1892750
+2024-06-27T00:53:37.660752Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1892759
+2024-06-27T00:53:37.662482Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-27T00:53:37.664315Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-27T00:53:37.990703Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-27T00:53:37.992150Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-27T00:53:37.995613Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-27T00:53:38.105989Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-06-27T00:53:38.556690Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-27T00:53:38.559606Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-27T00:53:38.563168Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-27T00:53:38.621689Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 1892759
+2024-06-27T00:53:38.624092Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Acer\Downloads\Trabajo-Final - copia\mysql\data\ib_buffer_pool
+2024-06-27T00:53:38.624262Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-27T00:53:38.626498Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\Acer\Downloads\Trabajo-Final - copia\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-27T00:53:38.631451Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-27T00:53:38.634220Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-27T00:53:38.639462Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-27T00:53:38.640899Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-27T00:53:38.642035Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2024-06-27T00:53:38.643046Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2024-06-27T00:53:38.647777Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-27T00:53:38.649195Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-27T00:53:38.651666Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-27T00:53:38.652961Z 0 [Note] IPv6 is available.
+2024-06-27T00:53:38.653661Z 0 [Note]   - '::' resolves to '::';
+2024-06-27T00:53:38.654481Z 0 [Note] Server socket created on IP: '::'.
+2024-06-27T00:53:38.656625Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-27T00:53:38.677290Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-27T00:53:38.679071Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-27T00:53:38.680529Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-27T00:53:38.681523Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-27T00:53:38.683031Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-27T00:53:38.688561Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-27T00:53:38.691115Z 0 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2024-06-27T00:53:38.692570Z 0 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2024-06-27T00:53:38.694054Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2024-06-27T00:53:38.695556Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2024-06-27T00:53:38.697167Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:53:38.698756Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2024-06-27T00:53:38.700714Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:53:38.702564Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:53:38.704798Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:53:38.706652Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:53:38.708420Z 0 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2024-06-27T00:53:38.709910Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2024-06-27T00:53:38.711841Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2024-06-27T00:53:38.713300Z 0 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2024-06-27T00:53:38.714614Z 0 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2024-06-27T00:53:38.716156Z 0 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2024-06-27T00:53:38.717909Z 0 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2024-06-27T00:53:38.719465Z 0 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2024-06-27T00:53:38.721057Z 0 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2024-06-27T00:53:38.722497Z 0 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2024-06-27T00:53:38.724074Z 0 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2024-06-27T00:53:38.725588Z 0 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2024-06-27T00:53:38.727187Z 0 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2024-06-27T00:53:38.728565Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2024-06-27T00:53:38.730218Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2024-06-27T00:53:38.732000Z 0 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2024-06-27T00:53:38.733999Z 0 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2024-06-27T00:53:38.735348Z 0 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2024-06-27T00:53:38.737078Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2024-06-27T00:53:38.738581Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2024-06-27T00:53:38.740376Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:53:38.742223Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:53:38.744144Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:53:38.746044Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:53:38.748304Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:53:38.750183Z 0 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2024-06-27T00:53:38.751798Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2024-06-27T00:53:38.753511Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2024-06-27T00:53:38.755724Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:53:38.757638Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:53:38.759508Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:53:38.761414Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:53:38.763532Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:53:38.765661Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2024-06-27T00:53:38.767428Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2024-06-27T00:53:38.769349Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2024-06-27T00:53:38.771335Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2024-06-27T00:53:38.774044Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2024-06-27T00:53:38.779775Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:53:38.782145Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:53:38.784705Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:53:38.786512Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:53:38.788462Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:53:38.791350Z 0 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2024-06-27T00:53:38.793450Z 0 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2024-06-27T00:53:38.795678Z 0 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2024-06-27T00:53:38.797104Z 0 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2024-06-27T00:53:38.798505Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2024-06-27T00:53:38.800222Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2024-06-27T00:53:38.801998Z 0 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2024-06-27T00:53:38.803474Z 0 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2024-06-27T00:53:38.805349Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:53:38.808671Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:53:38.811572Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:53:38.814576Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:53:38.817522Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:53:38.819458Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2024-06-27T00:53:38.820941Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2024-06-27T00:53:38.822775Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2024-06-27T00:53:38.825673Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2024-06-27T00:53:38.827544Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2024-06-27T00:53:38.831225Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2024-06-27T00:53:38.832969Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2024-06-27T00:53:38.834523Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2024-06-27T00:53:38.836717Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2024-06-27T00:53:38.838513Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2024-06-27T00:53:38.840178Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2024-06-27T00:53:38.842604Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2024-06-27T00:53:38.844331Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2024-06-27T00:53:38.845896Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2024-06-27T00:53:38.847420Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2024-06-27T00:53:38.849103Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2024-06-27T00:53:38.850987Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2024-06-27T00:53:38.853070Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2024-06-27T00:53:38.854948Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2024-06-27T00:53:38.856318Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2024-06-27T00:53:38.857714Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2024-06-27T00:53:38.859514Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-27T00:53:38.861421Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-27T00:53:38.863503Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-27T00:53:38.865405Z 0 [Note] C:\Users\Acer\Downloads\Trabajo-Final - copia/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.7.37'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-06-27T00:53:57.409636Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:53:57.410835Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:55:18.925602Z 4 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:55:18.926812Z 4 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:55:35.826469Z 6 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:55:35.827903Z 6 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:55:44.469696Z 10 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:55:44.471402Z 10 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:55:47.380905Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:55:47.382466Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:55:47.395438Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:55:47.397438Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:56:29.873282Z 32 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:56:29.874356Z 32 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`categorias_productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:56:29.889801Z 32 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:56:29.890849Z 32 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`pedidos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:56:35.403096Z 32 [Note] Abortada conexión 32 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:56:35.403125Z 33 [Note] Aborted connection 33 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:56:42.493787Z 35 [Note] Aborted connection 35 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:56:42.493878Z 34 [Note] Abortada conexión 34 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:56:50.049849Z 36 [Note] Abortada conexión 36 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:56:50.054541Z 37 [Note] Aborted connection 37 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:57:42.206561Z 43 [Note] Abortada conexión 43 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:57:42.206569Z 44 [Note] Aborted connection 44 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:57:49.783510Z 45 [Note] Abortada conexión 45 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:57:49.783603Z 46 [Note] Aborted connection 46 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:57:57.177432Z 47 [Note] Abortada conexión 47 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:57:57.177477Z 48 [Note] Aborted connection 48 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:58:04.113672Z 49 [Note] Abortada conexión 49 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:58:04.113885Z 50 [Note] Aborted connection 50 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:58:08.635647Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-06-27T00:58:08.635781Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2024-06-27T00:58:08.635793Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2024-06-27T00:58:08.635850Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2024-06-27T00:58:08.636879Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2024-06-27T00:58:08.636912Z 0 [Note] C:\Users\Acer\Downloads\Trabajo-Final - copia/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.37) starting as process 23496 ...
+2024-06-27T00:58:08.661435Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-06-27T00:58:08.662701Z 0 [Note] InnoDB: Uses event mutexes
+2024-06-27T00:58:08.663492Z 0 [Note] InnoDB: Memory barrier is not used
+2024-06-27T00:58:08.664379Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-06-27T00:58:08.665988Z 0 [Note] InnoDB: Number of pools: 1
+2024-06-27T00:58:08.667003Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2024-06-27T00:58:08.673061Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-06-27T00:58:08.684871Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-27T00:58:08.754434Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-06-27T00:58:08.758887Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1893289
+2024-06-27T00:58:08.760386Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1893298
+2024-06-27T00:58:08.762029Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-06-27T00:58:08.763235Z 0 [Note] InnoDB: Starting crash recovery.
+2024-06-27T00:58:09.070387Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-06-27T00:58:09.071995Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-06-27T00:58:09.074559Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-06-27T00:58:09.131525Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-06-27T00:58:09.221519Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-06-27T00:58:09.223327Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-06-27T00:58:09.226016Z 0 [Note] InnoDB: Waiting for purge to start
+2024-06-27T00:58:09.283542Z 0 [Note] InnoDB: 5.7.37 started; log sequence number 1893298
+2024-06-27T00:58:09.285682Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Acer\Downloads\Trabajo-Final - copia\mysql\data\ib_buffer_pool
+2024-06-27T00:58:09.285727Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-06-27T00:58:09.288635Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\Acer\Downloads\Trabajo-Final - copia\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2024-06-27T00:58:09.294813Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2024-06-27T00:58:09.298179Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2024-06-27T00:58:09.302972Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2024-06-27T00:58:09.305793Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2024-06-27T00:58:09.308153Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2024-06-27T00:58:09.309445Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2024-06-27T00:58:09.315047Z 0 [Warning] CA certificate ca.pem is self signed.
+2024-06-27T00:58:09.316665Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2024-06-27T00:58:09.319246Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-06-27T00:58:09.321672Z 0 [Note] IPv6 is available.
+2024-06-27T00:58:09.322523Z 0 [Note]   - '::' resolves to '::';
+2024-06-27T00:58:09.323774Z 0 [Note] Server socket created on IP: '::'.
+2024-06-27T00:58:09.327207Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2024-06-27T00:58:09.358133Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2024-06-27T00:58:09.359813Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2024-06-27T00:58:09.361408Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2024-06-27T00:58:09.362745Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2024-06-27T00:58:09.364542Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2024-06-27T00:58:09.372667Z 0 [Warning] System table 'servers' is expected to be transactional.
+2024-06-27T00:58:09.375995Z 0 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2024-06-27T00:58:09.378149Z 0 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2024-06-27T00:58:09.380954Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2024-06-27T00:58:09.382804Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2024-06-27T00:58:09.384282Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:58:09.385996Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2024-06-27T00:58:09.387800Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:58:09.389885Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:58:09.391647Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:58:09.393403Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:58:09.395284Z 0 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2024-06-27T00:58:09.396713Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2024-06-27T00:58:09.398503Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2024-06-27T00:58:09.399972Z 0 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2024-06-27T00:58:09.401287Z 0 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2024-06-27T00:58:09.402678Z 0 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2024-06-27T00:58:09.404631Z 0 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2024-06-27T00:58:09.406409Z 0 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2024-06-27T00:58:09.408584Z 0 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2024-06-27T00:58:09.410534Z 0 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2024-06-27T00:58:09.412218Z 0 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2024-06-27T00:58:09.413848Z 0 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2024-06-27T00:58:09.415931Z 0 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2024-06-27T00:58:09.418314Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2024-06-27T00:58:09.420855Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2024-06-27T00:58:09.423270Z 0 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2024-06-27T00:58:09.425867Z 0 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2024-06-27T00:58:09.427816Z 0 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2024-06-27T00:58:09.430059Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2024-06-27T00:58:09.432253Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2024-06-27T00:58:09.434185Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:58:09.436074Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:58:09.438323Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:58:09.440232Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:58:09.442108Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:58:09.443998Z 0 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2024-06-27T00:58:09.445643Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2024-06-27T00:58:09.447360Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2024-06-27T00:58:09.449104Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:58:09.451099Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:58:09.453335Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:58:09.455226Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:58:09.457245Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:58:09.459258Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2024-06-27T00:58:09.461006Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2024-06-27T00:58:09.463514Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2024-06-27T00:58:09.465395Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2024-06-27T00:58:09.467543Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2024-06-27T00:58:09.470162Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:58:09.473415Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:58:09.476321Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:58:09.478723Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:58:09.481375Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:58:09.483302Z 0 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2024-06-27T00:58:09.485013Z 0 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2024-06-27T00:58:09.487294Z 0 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2024-06-27T00:58:09.488643Z 0 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2024-06-27T00:58:09.490121Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2024-06-27T00:58:09.491697Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2024-06-27T00:58:09.493277Z 0 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2024-06-27T00:58:09.494751Z 0 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2024-06-27T00:58:09.496317Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2024-06-27T00:58:09.497937Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2024-06-27T00:58:09.499639Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2024-06-27T00:58:09.501352Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2024-06-27T00:58:09.503190Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2024-06-27T00:58:09.504918Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2024-06-27T00:58:09.506280Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2024-06-27T00:58:09.507664Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2024-06-27T00:58:09.509526Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2024-06-27T00:58:09.511171Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2024-06-27T00:58:09.512726Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2024-06-27T00:58:09.514299Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2024-06-27T00:58:09.515953Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2024-06-27T00:58:09.517806Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2024-06-27T00:58:09.519537Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2024-06-27T00:58:09.521308Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2024-06-27T00:58:09.523205Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2024-06-27T00:58:09.525493Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2024-06-27T00:58:09.527638Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2024-06-27T00:58:09.529293Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2024-06-27T00:58:09.530932Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2024-06-27T00:58:09.532460Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2024-06-27T00:58:09.533906Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2024-06-27T00:58:09.535497Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2024-06-27T00:58:09.537119Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2024-06-27T00:58:09.538724Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2024-06-27T00:58:09.540627Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2024-06-27T00:58:09.542566Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2024-06-27T00:58:09.544972Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2024-06-27T00:58:09.547148Z 0 [Note] C:\Users\Acer\Downloads\Trabajo-Final - copia/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.7.37'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-06-27T00:58:09.696041Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.697249Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.712055Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.713120Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`categorias_productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.721598Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.722938Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.731289Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.732347Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`pedidos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.741050Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.742116Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.750454Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.751498Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.759545Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.760599Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:09.768853Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:09.770045Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T00:58:14.267438Z 2 [Note] Abortada conexión 2 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T00:58:14.267518Z 3 [Note] Aborted connection 3 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T00:58:39.047814Z 18 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:42.074940Z 24 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:44.902724Z 30 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:47.232892Z 36 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:49.058797Z 42 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:51.001858Z 48 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:58:58.556930Z 54 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T00:59:05.973567Z 60 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:05.142403Z 70 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:05.221863Z 70 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:05.240157Z 70 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:05.241880Z 70 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:04:15.247111Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:15.248794Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`clientes` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:04:25.489560Z 74 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:04:25.490986Z 74 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:04:29.428332Z 74 [Note] Abortada conexión 74 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T01:04:29.431188Z 75 [Note] Aborted connection 75 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T01:06:13.505618Z 79 [Note] Aborted connection 79 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T01:06:13.506834Z 78 [Note] Abortada conexión 78 para db: 'unconnected' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T01:06:20.188231Z 80 [Note] Abortada conexión 80 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T01:06:20.188295Z 81 [Note] Aborted connection 81 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T01:06:27.017125Z 82 [Note] Abortada conexión 82 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T01:06:27.017441Z 83 [Note] Aborted connection 83 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T01:06:59.438824Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:06:59.439918Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`clientes` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:07:19.944996Z 108 [Note] Abortada conexión 108 para db: 'e-commerce' usuario: 'root' servidor: 'localhost' (Obtenido un error leyendo paquetes de comunicación)
+2024-06-27T01:07:19.945548Z 109 [Note] Aborted connection 109 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-06-27T01:07:56.346310Z 144 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:07.732645Z 150 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:07.734115Z 150 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:08:25.280264Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:25.282494Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`productos` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:08:25.543038Z 160 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:25.562580Z 160 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:25.564158Z 160 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:08:34.215222Z 166 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:34.249990Z 166 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:34.251540Z 166 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:08:44.039035Z 170 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:44.264976Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:44.267131Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`usuarios` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:08:54.283048Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:08:54.284701Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`roles` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:09:17.969252Z 180 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:09:17.970547Z 180 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:09:37.128038Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:09:37.129168Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`ventas` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:09:47.134398Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:09:47.136724Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`ventas` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:02.346851Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.348759Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.353804Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.355188Z 194 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:02.361630Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.363206Z 194 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:10:02.479891Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.481679Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.486048Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.488384Z 194 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`clientes` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:02.495029Z 194 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:02.496160Z 194 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:10:47.420684Z 214 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:47.421844Z 214 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:47.427824Z 214 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:47.429580Z 214 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`productos` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:47.437405Z 214 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:47.438895Z 214 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:10:54.160121Z 220 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:54.161593Z 220 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:54.167161Z 220 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:54.168615Z 220 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`roles` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:54.176489Z 220 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:54.177989Z 220 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:10:59.937563Z 224 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:59.939826Z 224 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:59.944195Z 224 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:59.945429Z 224 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`usuarios` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:10:59.951604Z 224 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:10:59.953320Z 224 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:06.164725Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:06.166254Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:06.171065Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:06.172837Z 230 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`ventas` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:11:06.181761Z 230 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:06.183255Z 230 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:14.972499Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:14.974474Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:14.975622Z 236 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`#sql-5bc8_ec` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:14.985391Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:14.986633Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:14.994623Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:14.996374Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:15.000711Z 236 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.432791Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.434406Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.435735Z 242 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`#sql-5bc8_f2` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:22.446133Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.447199Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.455684Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.457495Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:22.463395Z 242 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.858732Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.860170Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.861181Z 248 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`#sql-5bc8_f8` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:29.870703Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.872411Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.882376Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.885327Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:29.891052Z 248 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:39.857978Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:39.859174Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`roles` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:11:40.486826Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.488294Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.489309Z 254 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`#sql-5bc8_fe` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:40.495960Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.497012Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`productos` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:11:40.501169Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.502321Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.508890Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.509973Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:40.513522Z 254 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.230256Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.232169Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.233330Z 260 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`#sql-5bc8_104` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:46.244303Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.245460Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.252054Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.254716Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:46.259823Z 260 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:56.248195Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:56.249866Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`ventas` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:11:57.434814Z 266 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:57.435882Z 266 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:11:57.471294Z 266 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:11:57.472861Z 266 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:03.548074Z 272 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:03.549147Z 272 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`clientes` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:06.257447Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:06.259170Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`usuarios` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:12:11.448398Z 278 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:11.449548Z 278 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:11.474645Z 278 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:11.475779Z 278 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`usuarios` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:18.966085Z 284 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:18.967386Z 284 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:19.003465Z 284 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:19.004651Z 284 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:12:25.343660Z 288 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:12:25.344736Z 288 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`productos` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:13:25.216996Z 303 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:13:25.218178Z 303 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`roles` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T01:17:39.438092Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:17:39.439441Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:35:33.115382Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:35:33.117301Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T01:54:10.592453Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 445208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2024-06-27T01:55:03.051586Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T01:55:03.052670Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:21:55.694188Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:21:55.696059Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`usuarios` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:24:46.172043Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:24:46.174435Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:30:57.325221Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:30:57.326900Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:39:55.269797Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:39:55.272172Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:43:52.903070Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:43:52.904551Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:44:14.795056Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:44:14.796503Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:48:02.376776Z 1100 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:48:02.378534Z 1100 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T03:48:59.400645Z 1132 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:48:59.406006Z 1132 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:48:59.407821Z 1132 [ERROR] InnoDB: Fetch of persistent statistics requested for table `e-commerce`.`ventas` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2024-06-27T03:49:16.220237Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:49:16.221597Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`productos` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:49:33.387323Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:49:33.388765Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`productos` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2024-06-27T03:51:14.146572Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2024-06-27T03:51:14.150328Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `e-commerce`.`carrito_de_compras` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.

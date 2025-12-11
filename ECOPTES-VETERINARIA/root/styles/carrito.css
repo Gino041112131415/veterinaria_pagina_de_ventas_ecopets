@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.product-details, .totals {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.product-details {
+    flex: 1;
+    max-width: 70%;
+}
+.totals {
+    flex: 1;
+    max-width: 30%;
+    padding-left: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table th, .table td {
+    border: none;
+    padding: 15px;
+    text-align: left;
+}
+.table th {
+    background-color: #28a745;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.table tr {
+    border-bottom: 1px solid #ddd;
+}
+.table tr:last-child {
+    border-bottom: none;
+}
+.table td {
+    color: #666;
+    background-color: #f9f9f9;
+}
+.table td img {
+    max-width: 50px;
+    border-radius: 5px;
+}
+.table td button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.table td button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.totals h4 {
+    color: #28a745;
+    font-weight: bold;
+}
+.totals p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.totals .btn-success, .totals .btn-danger {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+}
+.totals .btn-danger {
+    margin-top: 10px;
+}
+footer.bg-dark {
+    padding-top: 50px;
+}
+footer h2 {
+    color: #28a745;
+}
+footer .text-light {
+    color: #a9a9a9 !important;
+}
