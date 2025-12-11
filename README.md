@@ -37,3 +37,9 @@ Activar: Apache y MySQL
 
 - Subtotales automáticos
 
+Imagenes  del proyecto 
+## Control de productos:
+<img width="1749" height="790" alt="control_de_productos_veterinarias " src="https://github.com/user-attachments/assets/c4abe021-594e-48b2-ac1a-538922b07ee1" />
+---
+## Página de inicio:
+<img width="1757" height="826" alt="veterinaria_index" src="https://github.com/user-attachments/assets/1fe1854d-ee9d-458a-93a8-ec0913e0e1ad" />
