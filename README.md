@@ -6,8 +6,8 @@
 
 ## 🚀 Pasos para ejecutar el proyecto
 ### 1. Configurar la base de datos
--CREATE DATABASE e_commerce;
--Importar el archivo SQL en phpMyAdmin 
+- CREATE DATABASE e_commerce;
+- Importar el archivo SQL en phpMyAdmin 
 
 ### 2. Verificar credenciales en conexion/conexion.php:
 - $Servidor = "localhost"
@@ -21,19 +21,19 @@ Activar: Apache y MySQL
 
 ### 🛒 Funciones principales
 
--Catálogo de productos
+- Catálogo de productos
 
--Carrito de compras (con sesiones)
+- Carrito de compras (con sesiones)
 
--Añadir productos 
+- Añadir productos 
 
--Login y registro de usuarios
+- Login y registro de usuarios
 
--Subida de imágenes
+- Subida de imágenes
 
--CRUD básico de productos
+- CRUD básico de productos
 
--Vista de detalles
+- Vista de detalles
 
--Subtotales automáticos
+- Subtotales automáticos
 
