@@ -6,7 +6,7 @@
 
 ## 🚀 Pasos para ejecutar el proyecto
 ### 1. Configurar la base de datos
-- CREATE DATABASE e_commerce;
+-CREATE DATABASE e_commerce;
 -Importar el archivo SQL en phpMyAdmin 
 
 ### 2. Verificar credenciales en conexion/conexion.php:
