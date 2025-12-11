@@ -10,10 +10,10 @@
 -Importar el archivo SQL en phpMyAdmin 
 
 ### 2. Verificar credenciales en conexion/conexion.php:
--$Servidor = "localhost"
--$nombreBD = "e-commerce"
--$usuario = "root"
--$contrasena = "usbw"
+- $Servidor = "localhost"
+- $nombreBD = "e-commerce"
+- $usuario = "root"
+- $contrasena = "usbw"
 
 ### 3. Encender el servidor local
 Activar: Apache y MySQL
